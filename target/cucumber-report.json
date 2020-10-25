@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-25T14:43:25.664Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7579951000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepsDefinition.initialisation()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "I go to the site and check title",
+        "description": "",
+        "id": "i-want-to-test-google-title;i-go-to-the-site-and-check-title",
+        "after": [
+          {
+            "result": {
+              "duration": 975327700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepsDefinition.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1320522300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I go to the site",
+            "match": {
+              "location": "steps.StepsDefinition.iGoToTheSite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12990500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I check that title is correct",
+            "match": {
+              "location": "steps.StepsDefinition.iCheckThatTitleIsCorrect()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I want to test google title",
+    "description": "",
+    "id": "i-want-to-test-google-title",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/first.feature",
+    "tags": []
+  }
+]
