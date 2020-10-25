@@ -55,6 +55,6 @@ public class StepsDefinition  {
 
     @Then("I check that title is correct")
     public void iCheckThatTitleIsCorrect() {
-        assertEquals("Google", driver.getTitle());
+        assertEquals("Googl", driver.getTitle());
     }
 }
